@@ -7,9 +7,9 @@
 ///
 /// flutter:
 ///   fonts:
-///    - family:  Rede_app
+///    - family:  RedeCustomIcons
 ///      fonts:
-///       - asset: fonts/Rede_app.ttf
+///       - asset: fonts/RedeCustomIcons.ttf
 ///
 /// 
 /// * Font Awesome, Copyright (C) 2016 by Dave Gandy
@@ -19,10 +19,10 @@
 ///
 import 'package:flutter/widgets.dart';
 
-class Rede_app {
-  Rede_app._();
+class RedeCustomIcons {
+  RedeCustomIcons._();
 
-  static const _kFontFam = 'Rede_app';
+  static const _kFontFam = 'RedeCustomIcons';
 
   static const IconData book = IconData(0xe800, fontFamily: _kFontFam);
   static const IconData home = IconData(0xe801, fontFamily: _kFontFam);
