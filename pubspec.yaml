@@ -27,6 +27,11 @@ dependencies:
   transparent_image: ^1.0.0
   http: ^0.12.0+2
   intl: 0.16.1
+  # video_player: ">0.10.0 <2.0.0"
+  # youtube_player_flutter: ^7.0.0
+  flutter_youtube: "^2.0.0+1"
+  # ext_video_player: ^0.0.3
+
 
 dev_dependencies:
   flutter_test:

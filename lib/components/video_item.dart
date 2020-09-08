@@ -1,15 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:rede_app/components/video_player.dart';
 
 class VideoItem extends StatelessWidget {
   final dynamic videoData;
 
-  VideoItem(this.videoData);
+  VideoItem({
+    Key key,
+    this.videoData,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {},
+      onTap: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
+          return VideoPlayer(key: this.key, videoData: this.videoData);
+        }));
+      },
       child: Card(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),
@@ -26,7 +34,7 @@ class VideoItem extends StatelessWidget {
                     topRight: Radius.circular(15),
                   ),
                   child: Image.network(
-                    videoData['snippet']['thumbnails']['medium']['url'],
+                    videoData['snippet']['thumbnails']['high']['url'],
                     height: 320,
                     width: double.infinity,
                     fit: BoxFit.cover,
@@ -67,7 +75,8 @@ class VideoItem extends StatelessWidget {
                         width: 6,
                       ),
                       Text(
-                        DateFormat('d MMM y').format(DateTime.parse(videoData['snippet']['publishedAt'])),
+                        DateFormat('d MMM y').format(DateTime.parse(
+                            videoData['snippet']['publishedAt'])),
                       )
                     ],
                   ),

@@ -42,4 +42,13 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 </dict>
+<key>NSAppTransportSecurity</key>
+<dict>
+  <key>NSAllowsArbitraryLoads</key>
+  <true/>
+  <key>io.flutter.embedded_views_preview</key>
+<true/>
+
+</dict>
+
 </plist>
