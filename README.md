@@ -2,7 +2,7 @@
 
 ## Que negócio é esse?
 
-Este é um projeto pessoal para desenvolvimento de um aplicativo híbrido que servirá como um agregador de conteúdo de mídias sociais (Instagram, Youtube).
+Este é um projeto pessoal para desenvolvimento de um aplicativo híbrido que servirá como um agregador de conteúdo de mídias sociais (Instagram, Youtube, etc).
 
 Inicialmente o aplicativo seria desenvolvido em React Native (o sketch foi realizado no final de 2k18 no Adobe XD). Entretanto, na época não foi possível dar início ao desenvolvimento deste. Sendo assim, dei início ao desenvolvimento do app em Flutter, que é uma linguagem que eu estava com interesse em aprender assim que saiu. 
 
@@ -16,12 +16,12 @@ Desta forma, pensando em unificar as mídias de canais distintos e aumentar auxi
 
 Abaixo segue um breve roadmap do que ainda precisa ser feito:
 
-- [ ] Refatorar componentes Stateful e Stateless (Tá tudo junto e misturado);
-- [ ] Finalizar o layout das telas;
-- [ ] Ajustar rotas nomeadas (montei de um jeito estranho e não tá funcionando do jeito esperado);
-- [ ] Integração com Instagram (O consumo da API tá ok, falta só estruturar haha);
-- [ ] Integração com Youtube (Não corri atrás ainda);
-- [ ] Integração com Firebase (Ainda não pensei na arquitetura do que vai ser utilizado do Firebase. To conversando com os "Stakeholders" do projeto pra definir algumas coisas);
+> - [ ] Refatorar componentes Stateful e Stateless (Tá tudo junto e misturado);
+> - [ ] Finalizar o layout das telas;
+> - [ ] Ajustar rotas nomeadas (montei de um jeito estranho e não tá funcionando do jeito esperado);
+> - [ ] Integração com Instagram (O consumo da API está ok, falta só estruturar :P haha);
+> - [ ] Integração com Youtube (Não corri atrás ainda);
+> - [ ] Integração com Firebase (Ainda não pensei na arquitetura do que vai ser utilizado do Firebase. To conversando com os "Stakeholders" do projeto pra definir algumas coisas);
 
 Assim eu for ajustando os pontos supracitados vou atualizando o Readme. 
 
